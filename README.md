@@ -1,21 +1,29 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/0fYi8SGA20k?feature=shared" target="_blank">
-      <img src="https://github.com/adrianhajdin/project_3D_developer_portfolio/assets/151519281/4722160a-8e61-403f-a905-728feae1f7e6" alt="Project Banner">
-    </a>
-  <br />
+  
+  <h1 align="center">🚀 Sora's 3D Developer Portfolio</h1>
+  
+  <p align="center">
+    <strong>Interactive 3D Portfolio showcasing modern web development skills</strong>
+  </p>
 
   <div>
     <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
     <img src="https://img.shields.io/badge/-Three_JS-black?style=for-the-badge&logoColor=white&logo=threedotjs&color=000000" alt="three.js" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+    <img src="https://img.shields.io/badge/-Vite-black?style=for-the-badge&logoColor=white&logo=vite&color=646CFF" alt="vite" />
   </div>
 
-  <h3 align="center">A 3D Developer Portfolio</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+  <br />
+  
+  <p align="center">
+    <a href="https://github.com/sora-dev/sora">
+      <img src="https://img.shields.io/github/stars/sora-dev/sora?style=social" alt="GitHub stars">
+    </a>
+    <a href="https://github.com/sora-dev/sora/network/members">
+      <img src="https://img.shields.io/github/forks/sora-dev/sora?style=social" alt="GitHub forks">
+    </a>
+  </p>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -28,21 +36,17 @@
 6. 🔗 [Links](#links)
 7. 🚀 [More](#more)
 
-## 🚨 Tutorial
-
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
-
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
-
-<a href="https://youtu.be/0fYi8SGA20k?feature=shared" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
-
 ## <a name="introduction">🤖 Introduction</a>
 
-By developing this project, you will gain hands-on experience in crafting immersive web experiences, mastering 3D libraries, and implementing engaging animations. The combination of creativity and technical skills showcased in this project serves as an excellent learning opportunity for developers seeking to enhance their portfolio and captivate users with cutting-edge web design.
+Welcome to my interactive 3D developer portfolio! This project showcases my expertise in modern web development technologies, combining creativity with technical skills to create an immersive user experience.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
+Built with React.js, Three.js, and other cutting-edge technologies, this portfolio demonstrates my ability to:
+- Create engaging 3D web experiences
+- Implement smooth animations and interactions  
+- Design responsive and accessible user interfaces
+- Integrate modern development tools and workflows
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+This portfolio serves as both a showcase of my work and a testament to my passion for pushing the boundaries of web development.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -56,23 +60,25 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Customizable 3D Hero Section**: Includes a 3D desktop model easily customizable to suit specific needs.
+👉 **Immersive 3D Hero Section**: Features a customizable 3D desktop model that creates an engaging first impression.
 
-👉 **Interactive Experience and Work Sections**: Utilizes animations powered by framer motion for engaging user experience.
+👉 **Interactive Experience Showcase**: Smooth animations powered by Framer Motion bring my professional journey to life.
 
-👉 **3D Skills Section**: Showcases skills using 3D geometries through three.js and React Three fiber
+👉 **Dynamic Skills Visualization**: 3D geometries and interactive elements showcase technical expertise using Three.js and React Three Fiber.
 
-👉 **Animated Projects and Testimonials**: Features animated sections using framer motion for projects and client testimonials.
+👉 **Animated Project Gallery**: Beautifully animated project showcases with detailed descriptions and live demos.
 
-👉 **Contact Section with 3D Earth Model**:Integrates a 3D earth model with email functionality powered by emailjs.
+👉 **Interactive Contact Experience**: Features a 3D Earth model with integrated email functionality for seamless communication.
 
-👉 **3D Stars**: Generate stars progressively at random positions using Three.js for background display.
+👉 **Dynamic Background Effects**: Procedurally generated 3D stars create an immersive space-like atmosphere.
 
-👉 **Consistent Animations**: Implements cohesive animations throughout the website using framer motion.
+👉 **Seamless User Experience**: Consistent animations and transitions throughout the entire portfolio.
 
-👉 **Responsive Design**: Ensures optimal display and functionality across all devices.
+👉 **Fully Responsive Design**: Optimized for all devices - desktop, tablet, and mobile.
 
-and many more, including code architecture and reusability 
+👉 **Modern Tech Stack**: Built with the latest web technologies for optimal performance and maintainability.
+
+👉 **Clean Architecture**: Well-structured, reusable components following React best practices. 
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -89,8 +95,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone git@github.com:adrianhajdin/project_3D_developer_portfolio.git
-cd project_3D_developer_portfolio
+git clone https://github.com/sora-dev/sora.git
+cd sora
 ```
 
 **Installation**
@@ -763,14 +769,19 @@ module.exports = {
 
 ## <a name="links">🔗 Links</a>
 
-Models and Assets used in the project can be found [here](https://drive.google.com/drive/folders/1KVU8iaH0E_JFtShNiR3BgCSA3pawXY4Z)
+- **Live Portfolio**: [Visit my portfolio](https://github.com/sora-dev/sora) 
+- **GitHub Repository**: [Source Code](https://github.com/sora-dev/sora)
+- **Models and Assets**: [3D Assets used in the project](https://drive.google.com/drive/folders/1KVU8iaH0E_JFtShNiR3BgCSA3pawXY4Z)
 
-## <a name="more">🚀 More</a>
+## <a name="more">🚀 Connect with Me</a>
 
-**Advance your skills with Next.js Pro Course**
+Feel free to reach out if you'd like to collaborate or discuss web development!
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning experience. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+- **Email**: Contact me through the portfolio's contact form
+- **LinkedIn**: [Connect with me on LinkedIn](https://linkedin.com/in/sora-dev)
+- **GitHub**: [Follow my work](https://github.com/sora-dev)
 
-<a href="https://www.jsmastery.pro/ultimate-next-course" target="_blank">
-<img src="https://i.ibb.co/804sPK6/Image-720.png" alt="Project Banner">
-</a>
+<div align="center">
+  <p>⭐ Star this repository if you found it helpful!</p>
+  <p>Built with ❤️ by Sora</p>
+</div>
