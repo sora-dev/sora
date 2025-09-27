@@ -1,0 +1,78 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Main gradient background -->
+    <radialGradient id="mainGradient" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#1a0b3d;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#2d1b69;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#050816;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </radialGradient>
+    
+    <!-- Purple accent gradient -->
+    <linearGradient id="purpleAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#915eff;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#804dee;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#915eff;stop-opacity:0.1" />
+    </linearGradient>
+    
+    <!-- Geometric pattern gradient -->
+    <linearGradient id="geometricGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#915eff;stop-opacity:0.1" />
+      <stop offset="50%" style="stop-color:#804dee;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#915eff;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="1920" height="1080" fill="url(#mainGradient)"/>
+  
+  <!-- Abstract geometric shapes -->
+  <g opacity="0.4">
+    <!-- Large floating hexagon -->
+    <polygon points="300,200 400,150 500,200 500,300 400,350 300,300" fill="url(#purpleAccent)" transform="rotate(15 400 250)"/>
+    
+    <!-- Floating circles -->
+    <circle cx="1600" cy="300" r="80" fill="url(#purpleAccent)" opacity="0.3"/>
+    <circle cx="1700" cy="200" r="40" fill="#915eff" opacity="0.2"/>
+    <circle cx="200" cy="800" r="60" fill="#804dee" opacity="0.25"/>
+    
+    <!-- Abstract triangular shapes -->
+    <polygon points="1400,600 1500,500 1600,600 1550,700" fill="url(#geometricGrad)" opacity="0.3"/>
+    <polygon points="100,400 200,350 250,450 150,500" fill="url(#purpleAccent)" opacity="0.2"/>
+    
+    <!-- Floating rectangles -->
+    <rect x="800" y="100" width="120" height="60" fill="#915eff" opacity="0.15" transform="rotate(25 860 130)"/>
+    <rect x="1200" y="800" width="80" height="40" fill="#804dee" opacity="0.2" transform="rotate(-15 1240 820)"/>
+  </g>
+  
+  <!-- Tech-inspired line patterns -->
+  <g stroke="#915eff" stroke-width="1" fill="none" opacity="0.3">
+    <!-- Circuit-like lines -->
+    <path d="M100,600 L300,600 L300,700 L500,700" stroke-dasharray="5,5"/>
+    <path d="M1400,400 L1600,400 L1600,300 L1800,300" stroke-dasharray="3,7"/>
+    <path d="M600,900 L800,900 L800,800 L1000,800" stroke-dasharray="8,4"/>
+    
+    <!-- Connecting nodes -->
+    <circle cx="300" cy="600" r="3" fill="#915eff"/>
+    <circle cx="300" cy="700" r="3" fill="#915eff"/>
+    <circle cx="500" cy="700" r="3" fill="#915eff"/>
+    <circle cx="1600" cy="400" r="3" fill="#915eff"/>
+    <circle cx="1600" cy="300" r="3" fill="#915eff"/>
+    <circle cx="1800" cy="300" r="3" fill="#915eff"/>
+  </g>
+  
+  <!-- Subtle particle effects -->
+  <g fill="#915eff" opacity="0.6">
+    <circle cx="450" cy="350" r="1.5"/>
+    <circle cx="750" cy="250" r="1"/>
+    <circle cx="1100" cy="450" r="1.5"/>
+    <circle cx="1350" cy="650" r="1"/>
+    <circle cx="650" cy="750" r="1.5"/>
+    <circle cx="950" cy="550" r="1"/>
+    <circle cx="1450" cy="150" r="1.5"/>
+    <circle cx="350" cy="950" r="1"/>
+  </g>
+  
+  <!-- Overlay gradient for depth -->
+  <rect width="1920" height="1080" fill="url(#purpleAccent)" opacity="0.1"/>
+</svg>

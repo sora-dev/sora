@@ -4,26 +4,28 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  aws,
   html,
   css,
   reactjs,
-  redux,
+  wordpress,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
+  express,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
   rbi,
+  upwork,
+  alfheim,
+  technodream,
+  bsu,
+  isc2CC,
+  awsCCP,
 } from "../assets";
 
 export const navLinks = [
@@ -43,19 +45,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Web Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "IT & Cybersecurity",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "IT Management",
     icon: creator,
   },
 ];
@@ -74,20 +76,12 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "WordPress",
+    icon: wordpress,
   },
   {
     name: "Node JS",
@@ -98,20 +92,28 @@ const technologies = [
     icon: mongodb,
   },
   {
+    name: "Express JS",
+    icon: express,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
     name: "Three JS",
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Docker",
+    icon: docker,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "AWS",
+    icon: aws,
   },
 ];
 
@@ -131,71 +133,72 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Freelance Web Developer",
+    company_name: "Upwork and Various Clients",
+    icon: upwork,
+    iconBg: "#383E56",
+    date: " September 2016 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designs and develops custom websites using PHP, JavaScript, MySQL, and WordPress.",
+      "Maintains and optimizes websites for performance and security.",
+      "Maintains and optimizes websites for performance and security.",
+      "Converts static sites into WordPress-based platforms.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    company_name: "Technodream Outsourcing",
+    icon: technodream,
+    iconBg: "#E6DEDD",
+    date: "July 2020 - October 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained websites for various clients.",
+      "Integrated SSL security and deployed websites to hosting services.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Internet Café Owner",
+    company_name: "Alfheim Computer Shop",
+    icon: alfheim,
+    iconBg: "#383E56",
+    date: "August 2018 - May 2020",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+    {
+    title: "IT Technical Support",
+    company_name: "Benguet State University",
+    icon: bsu,
+    iconBg: "#E6DEDD",
+    date: "September 2015 - January 2016",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
     ],
   },
 ];
 
-const testimonials = [
+const certifications = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    title: "Certified in Cybersecurity (CC)",
+    issuer: "ISC2",
+    issued: "May 2025",
+    expires: "May 2028",
+    credlyUrl: "https://www.credly.com/badges/b2063485-2d91-4a05-b1e3-5813504a5178/public_url",
+    logo: isc2CC,
+    description: "Demonstrates foundational knowledge in cybersecurity principles and practices"
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+    title: "AWS Certified Cloud Practitioner",
+    issuer: "Amazon Web Services (AWS)",
+    issued: "Feb 2025",
+    expires: "Feb 2028",
+    credlyUrl: "https://www.credly.com/badges/ac649b12-1a47-430c-b0a3-f28407d5252a/linked_in_profile",
+    logo: awsCCP,
+    description: "Validates overall understanding of the AWS Cloud platform and services"
+  }
 ];
 
 const projects = [
@@ -264,4 +267,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, certifications, projects };

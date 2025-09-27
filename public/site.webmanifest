@@ -1,0 +1,21 @@
+{
+  "name": "Sora - Full-Stack Developer",
+  "short_name": "Sora",
+  "description": "Full-Stack Developer building secure web applications and systems",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#915EFF",
+  "background_color": "#050816",
+  "display": "standalone",
+  "start_url": "/"
+}

@@ -19,7 +19,8 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern": "url('/src/assets/tech-gradient-bg.svg')",
+        "hero-pattern-old": "url('/src/assets/herobg.png')", // Keep old background for easy switching
       },
     },
   },
