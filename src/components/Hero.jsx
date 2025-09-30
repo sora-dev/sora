@@ -30,7 +30,7 @@ const Hero = () => {
                  <div className="w-48 h-48 rounded-full bg-gradient-to-b from-[#915EFF] via-purple-500/60 to-transparent p-1 shadow-2xl">
                    <div className="w-full h-full rounded-full bg-gradient-to-b from-[#915EFF]/80 via-purple-400/40 to-transparent flex items-center justify-center overflow-hidden">
                      <img 
-                       src="/src/assets/avatar.png" 
+                       src="/avatar.png" 
                        alt="Jethro Profile" 
                        className="w-44 h-44 object-cover rounded-full"
                      />
